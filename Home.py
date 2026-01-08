@@ -85,8 +85,6 @@ def drawLogin():
             
 
 def check_credentials(username,password):
-    username="admin"
-    password="admin"
     if username == st.secrets["SUPER_ADMIN_EMAIL"] and password == st.secrets["SUPER_ADMIN_CRED"]:
         st.session_state.view_role = "super-admin"
         st.session_state.LoggedIn = True

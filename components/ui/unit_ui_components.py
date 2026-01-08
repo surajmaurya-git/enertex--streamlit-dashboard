@@ -345,7 +345,7 @@ def gauge_section(node_client=None):
                 sv.gauge(
                     value,
                     VARIABLE["name"],
-                    gMode="number",
+                    # gMode="number",
                     cWidth=True,
                     gSize="MED",
                     sFix=VARIABLE["unit"],
@@ -366,7 +366,7 @@ def gauge_section(node_client=None):
                 sv.gauge(
                     value,
                     VARIABLE["name"],
-                    gMode="number",
+                    # gMode="number",
                     cWidth=True,
                     gSize="MED",
                     sFix=VARIABLE["unit"],
