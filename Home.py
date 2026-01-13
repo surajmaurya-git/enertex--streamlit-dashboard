@@ -69,7 +69,7 @@ def drawLogin():
         ]
     }
     st.navigation(pages,position="hidden")
-    cols = st.columns([1, 1.3, 1], gap="large",vertical_alignment="center")
+    cols = st.columns([1, 1.5, 1], gap="small",vertical_alignment="center")
     with cols[1]:
         st.title(DASHBOARD_NAME,anchor=False)
 
